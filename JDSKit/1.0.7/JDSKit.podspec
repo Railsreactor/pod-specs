@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.resource = "JDSKit/InitialModel.xcdatamodeld"
   s.frameworks = "UIKit", "Foundation"
   s.dependency 'CocoaLumberjack/Swift', '~> 2.2.0'
-  s.dependency 'PromiseKit', '~> 3.0.3'
+  s.dependency 'PromiseKit', '~> 3.2’
   s.dependency 'SwiftyJSON', '~> 2.3.2'
 end
